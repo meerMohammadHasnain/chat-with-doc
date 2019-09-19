@@ -81,10 +81,7 @@ ChatAccessor.prototype.deleteChatFromMongo = async function(filter) {
   return response;
 };
 
-ChatAccessor.prototype.insertChatIdIntoRedis = async function(client,
-                                                             key,
-                                                             chatId,
-                                                             timestamp) {
+ChatAccessor.prototype.insertChatIdIntoRedis = async function(client, key, chatId, timestamp) {
   // Promisifying insertion into Redis
   var getAsync = promisify(client.zadd).bind(client);
   // Insert the chatId in a sorted set in Redis
