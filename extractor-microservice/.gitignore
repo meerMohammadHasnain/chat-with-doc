@@ -1,0 +1,11 @@
+# Environment variable file
+.env
+
+# Node Modules
+node_modules
+
+# Log files
+*.log
+
+# Locked Package JSON
+package-lock.json
