@@ -1,0 +1,31 @@
+<form [formGroup]="signupForm" (ngSubmit)="onSubmit(signupForm.value)">
+  <div class="login-form-firstname-field">
+    <label class="login-form-firstname-field-label" for="firstName">First Name</label>
+    <input class="login-form-firstname-field-input" id="firstName" type="text" formControlName="firstName" placeholder="Enter your first name...">
+  </div>
+  <div class="login-form-lastname-field">
+    <label class="login-form-lastname-field-label" for="lastName">Last Name</label>
+    <input class="login-form-lastname-field-input" id="lastName" type="text" formControlName="lastName" placeholder="Enter your last name...">
+  </div>
+  <div class="login-form-email-field">
+    <label class="login-form-email-field-label" for="email">Email</label>
+    <input class="login-form-email-field-input" id="email" type="text" formControlName="email" placeholder="Enter your email...">
+  </div>
+  <div class="login-form-phone-field">
+    <label class="login-form-phone-field-label" for="phone">Phone</label>
+    <input class="login-form-phone-field-input" id="phone" type="text" formControlName="phone" placeholder="Enter your phone number...">
+  </div>
+  <div class="login-form-password-field">
+    <label class="login-form-password-field-label" for="password">Password</label>
+    <input class="login-form-password-field-input" id="signup-password" type="password" formControlName="password" placeholder="Enter your password...">
+  </div>
+  <div class="login-form-specialization-field" *ngIf="signupFormType == 'doctor'">
+    <label class="login-form-specialization-field-label" for="specialization">Specialization</label>
+    <input class="login-form-specialization-field-input" id="specialization" type="specialization" formControlName="specialization" placeholder="Enter your specialization...">
+  </div>
+  <div class="login-form-hospital-field" *ngIf="signupFormType == 'doctor'">
+    <label class="login-form-hospital-field-label" for="hospital">Hospital</label>
+    <input class="login-form-hospital-field-input" id="hospital" type="hospital" formControlName="hospital" placeholder="Enter your hospital...">
+  </div>
+  <button class="login-signup-frames-submit-botton" type="submit">Submit</button>
+</form>
