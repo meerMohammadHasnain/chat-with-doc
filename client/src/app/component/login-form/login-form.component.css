@@ -1,0 +1,94 @@
+@import url('../modal/modal.component.css');
+
+.login-form-username-field {
+  width: 200px;
+  height: 90px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.login-form-username-field-label {
+  font-size: 16px;
+  font-weight: bold;;
+  font-family: cursive;
+  margin-left: 5px;
+  color: #808080;
+}
+
+.login-form-username-field-input {
+  width: 350px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 8px;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px;
+}
+
+.login-form-username-field-input:hover {
+  border: 3px solid #E8DAEB;
+}
+
+.login-form-username-field-input:focus {
+  outline: 0;
+}
+
+.login-form-password-field {
+  width: 200px;
+  height: 90px;
+  margin-left: 50px;
+}
+
+.login-form-password-field-label {
+  font-size: 16px;
+  font-weight: bold;;
+  font-family: cursive;
+  margin-left: 5px;
+  color: #808080;
+}
+
+.login-form-password-field-input {
+  width: 350px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 8px;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px;
+}
+
+.login-form-password-field-input:hover {
+  border: 3px solid #E8DAEB;
+}
+
+.login-form-password-field-input:focus {
+  outline: 0;
+}
+
+.login-form-password-field-input:hover {
+  border: 3px solid #E8DAEB;
+}
+
+.login-signup-frames-submit-botton {
+  margin-top: 50px;
+  margin-left: 165px;
+  padding: 8px 30px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #4B0082, #8A2BE2);
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.login-signup-frames-submit-botton:hover {
+  background: linear-gradient(to bottom, #8A2BE2, #4B0082);
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-signup-frames-submit-botton:focus {
+  outline: 0;
+}
+
+.login-signup-frames-submit-botton:active {
+  background: linear-gradient(to bottom, #4B0082, #8A2BE2);
+}
