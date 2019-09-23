@@ -1,0 +1,48 @@
+<div class="login-tile-header">
+  <font class="login-tile-header-text">
+    An easier way to <font class="login-tile-header-text-bold">chat with your doctor</font>
+  </font>
+</div>
+
+<div class="login-tile-logo-bar">
+  <div class="login-tile-logo-bar-logo">
+    <img class="login-tile-logo-bar-logo-image" src = "/assets/images/logo.jpg"/>
+  </div>
+  <div class="login-tile-logo-bar-app-name">Chat With Doc</div>
+  <div class="login-tile-logo-bar-login-signup" *ngIf="!isUserLoggedIn">
+    <button class="login-tile-logo-bar-login-button" (click)="openModal('login-modal')">Login</button>
+    <button class="login-tile-logo-bar-signup-button" (click)="openModal('signup-modal')">Signup</button>
+  </div>
+  <div class="login-tile-logo-bar-logout" *ngIf="isUserLoggedIn">
+    <button class="login-tile-logo-bar-logout-button">Logout</button>
+  </div>
+</div>
+
+<app-modal class="modal" id="login-modal">
+  <div class="modal-body">
+    <div class="login-frame-header">
+      <div class="login-frame-header-text">Login</div>
+    </div>
+    <div class="login-form">
+      <app-login-form></app-login-form>
+    </div>
+  </div>
+  <div class="modal-background"></div>
+</app-modal>
+
+<app-modal class="modal" id="signup-modal">
+  <div class="modal-body">
+      <div class="signup-frame-header">
+        <div class="signup-frame-header-patient" (click)="onPatientSignupFrameChosen()">
+          <div class="signup-frame-header-patient-text">Patient</div>
+        </div>
+        <div class="signup-frame-header-doctor" (click)="onDoctorSignupFrameChosen()">
+          <div class="signup-frame-header-doctor-text">Doctor</div>
+        </div>
+      </div>
+      <div  class="signup-frame-body">
+        <app-signup-form [signupFormType]="signupFrameType"></app-signup-form>
+      </div>
+  </div>
+  <div class="modal-background"></div>
+</app-modal>
