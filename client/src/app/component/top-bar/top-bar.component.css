@@ -1,0 +1,149 @@
+@import url('../modal/modal.component.css');
+
+.login-tile-header {
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  background: black;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.login-tile-header-text {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.login-tile-header-text-bold {
+  color: #F8C800;
+  font-weight: bold;
+}
+
+.login-tile-logo-bar {
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+
+.login-tile-logo-bar-logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 80px;
+  height: 100%;
+}
+
+.login-tile-logo-bar-logo-image {
+  width: 75px;
+  height: 75px;
+}
+
+.login-tile-logo-bar-app-name {
+  float: left;
+  width: 40%;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+  color: black;
+}
+
+.login-tile-logo-bar-login-signup {
+  float: left;
+  width: 300px;
+  height: 80px;
+  margin-top: 25px;
+  margin-left: 300px;
+}
+
+.login-tile-logo-bar-login-button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  background: white;
+  color: #808080;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.login-tile-logo-bar-login-button:hover {
+  background: linear-gradient(to bottom, rgba(255, 255, 255), rgba(220, 220, 220),);
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-tile-logo-bar-signup-button {
+  margin-left: 20px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, rgba(128, 0, 128), rgba(255, 0, 255));
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.login-tile-logo-bar-login-button:hover {
+  background: linear-gradient(to bottom, rgba(220, 220, 220), rgba(255, 255, 255));
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-tile-logo-bar-login-button:focus {
+  outline: 0;
+}
+
+.login-tile-logo-bar-login-button:active {
+  background: linear-gradient(to bottom, rgba(190, 190, 190), rgba(240, 240, 240));
+}
+
+.login-tile-logo-bar-signup-button:hover {
+  background: linear-gradient(to bottom, rgba(255, 0, 255), rgba(128, 0, 128));
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-tile-logo-bar-signup-button:focus {
+  outline: 0;
+}
+
+.login-tile-logo-bar-signup-button:active {
+  background: linear-gradient(to bottom, rgba(150, 0, 150), rgba(120, 0, 120));
+}
+
+.login-tile-logo-bar-logout {
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin-top: 25px;
+  margin-left: 420px;
+}
+
+.login-tile-logo-bar-logout-button {
+  margin-left: 20px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, rgba(128, 0, 128), rgba(255, 0, 255));
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.login-tile-logo-bar-logout-button:hover {
+  background: linear-gradient(to bottom, rgba(255, 0, 255), rgba(128, 0, 128));
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-tile-logo-bar-logout-button:focus {
+  outline: 0;
+}
+
+.login-tile-logo-bar-logout-button:active {
+  background: linear-gradient(to bottom, rgba(150, 0, 150), rgba(120, 0, 120));
+}
