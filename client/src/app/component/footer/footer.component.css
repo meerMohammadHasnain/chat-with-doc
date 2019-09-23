@@ -1,0 +1,56 @@
+.footer {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(to bottom, #101010 100%, #000000 100%);
+}
+
+.footer-aboutus {
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  width:100px;
+}
+
+.footer-terms-conditions {
+  float: left;
+  margin-left: 440px;
+  margin-top: 50px;
+  width:300px;
+}
+
+.footer-text {
+  font-family:serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.footer-followus {
+  float: left;
+  margin-left: 230px;
+  margin-top: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+.footer-followus-icons-container {
+  margin-top: 10px;
+  width: 200px;
+  height: 50%;
+  align-items: center;
+}
+
+.footer-followus-icons {
+  margin-left: 10px;
+  width:30px;
+  height:30px;
+}
+
+.links {
+  color:inherit;
+  text-decoration: none;
+}
+
+.links:hover {
+  opacity: 0.5;
+}
